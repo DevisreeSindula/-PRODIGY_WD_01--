@@ -1,0 +1,113 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Navbar Styling */
+.navbar {
+    position: fixed;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    transition: background-color 0.3s ease;
+}
+
+.nav-menu {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    padding: 1em 0;
+}
+
+.nav-item {
+    margin: 0 1em;
+}
+
+.nav-item a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: color 0.3s ease;
+}
+
+.nav-item a:hover {
+    color: #ff6347;
+}
+
+/* Section Styling */
+section {
+    padding: 100px 20px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#home {
+    background: url(https://png.pngtree.com/thumb_back/fw800/background/20231005/pngtree-illustration-of-a-web-developer-programming-on-laptop-screen-with-computer-image_13531205.png);
+    background-size: 100% 100%;
+}
+
+#about {
+    background-image: url(https://www.shutterstock.com/image-photo/coaching-mentor-programmer-business-people-600nw-2348348231.jpg);
+    background-size: 100% 100%;
+    
+}
+
+#contact {
+    background-image: url(https://wallpaper.dog/large/5523447.jpg);
+    background-size: 100% 100%;
+}
+
+#privacy {
+    background-image: url(https://wallpapercave.com/wp/wp4312413.jpg);
+    background-size: 100% 100%;
+
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    color: white;
+    background-color: #333;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #ff6347;
+}
+
+/* Scrolled Navbar */
+.navbar.scrolled {
+    background-color: #222;
+}
